@@ -9,6 +9,9 @@
     "**/*.ts",
     "!node_modules/**/*"
   ],
+  "files": [
+    "typings/index.d.ts"
+  ],
   "exclude": [
     "node_modules",
     "typings/global",

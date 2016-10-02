@@ -2,13 +2,14 @@ import { Component, Inject } from '@angular/core';
 import { ionicBootstrap, Platform, NavController } from 'ionic-angular';
 import { StatusBar } from 'ionic-native';
 
-//import {LoginPage} from './pages/login/login';
-//import {TabsPage} from './pages/tabs/tabs';
-//import { HomePage } from './pages/home/home';
+import {LoginPage} from './pages/login/login';
+import {TabsPage} from './pages/tabs/tabs';
+import { HomePage } from './pages/home/home';
 
 import {AuthProvider} from './providers/auth-provider/auth-provider';
 import {UserProvider} from './providers/user-provider/user-provider';
-import {UtilProvider} from './providers/utils'; 
+import {UtilProvider} from './providers/util-provider/util-provider'; 
+import {ChatsProvider} from './providers/chats-provider/chats-provider';
 
 //firebase Includes
 import {
