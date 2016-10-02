@@ -7,9 +7,8 @@ import { StatusBar } from 'ionic-native';
 //import { HomePage } from './pages/home/home';
 
 import {AuthProvider} from './providers/auth-provider/auth-provider';
-// import {ChatsProvider} from './providers/chats-provider/chats-provider';
- import {UserProvider} from './providers/user-provider/user-provider';
-// import {UtilProvider} from './providers/utils'; 
+import {UserProvider} from './providers/user-provider/user-provider';
+import {UtilProvider} from './providers/utils'; 
 
 //firebase Includes
 import {
