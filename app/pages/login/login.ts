@@ -41,7 +41,7 @@ export class LoginPage {
   		}, (error) =>{
   			let errorMessage = "Enter correct Email and Password";
   			let alert = this.util.doAlert("Error", errorMessage, "Ok");
-  			alert.present();
+  			this.nav.present(alert);
   		});
   };
 
@@ -54,7 +54,7 @@ export class LoginPage {
   		}, (error) => {
   			let errorMessage = "Account Already Exists";
   			let alert = this.util.doAlert("Error", errorMessage, "Ok");
-  			alert.present();
+  			this.nav.present(alert);
   		});
   };
 
