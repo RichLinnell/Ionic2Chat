@@ -45,7 +45,7 @@ export class MyApp {
   }
 }
 
-ionicBootstrap(MyApp, [AngularFire, FIREBASE_PROVIDERS, defaultFirebase({
+ionicBootstrap(MyApp, [FIREBASE_PROVIDERS, defaultFirebase({
 	apiKey: "AIzaSyBNo7JksyWwgpG4fTB6PzYlxu5V0_0EF0Q",
 	authDomain: "test-fcm-9a4b4.firebaseapp.com",
     databaseURL: "https://test-fcm-9a4b4.firebaseio.com",

@@ -1,5 +1,5 @@
 import { Injectable, Inject } from '@angular/core';
-import {FirebaseAuth, FirebaseRef, AngularFire} from 'angularFire2';
+import {FirebaseAuth, FirebaseRef, AngularFire} from 'angularfire2';
 import {LocalStorage, Storage} from 'ionic-angular';
 import 'rxjs/add/operator/map';
 import * as firebase from 'firebase';
