@@ -54,7 +54,7 @@ export class UserProvider {
 
   		let promise = new Promise((resolve, reject) => {
   			Camera.getPicture(options).then((imageData) => {
-  				base64Picture = "data:image/jpeg;base64," + ImageData;
+  				base64Picture = "data:image/jpeg;base64," + imageData;
   				resolve(base64Picture);
   			}, (error) => {
   				reject(error);

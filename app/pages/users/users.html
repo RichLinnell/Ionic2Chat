@@ -21,7 +21,7 @@
 		<a ion-item (click)="openChat(user.$key)" *ngIf="user.$key !==uid">
 		<ion-avatar item-left>
 			<img *ngIf="!user.picture" src="img/default.jpg">
-			<img *ngIf="user.picture" src="{{user.picture}}"
+			<img *ngIf="user.picture" src="{{user.picture}}">
 		</ion-avatar>
 		<h2>{{user.email}}</h2>
 		</a>

@@ -9,7 +9,7 @@
   <ion-navbar primary>
     <ion-title>Chats</ion-title>
     <ion-buttons end>
-    	<ion-soinner primary *ngIf="!(chats | async)"></ion-soinner>
+    	<ion-spinner primary *ngIf="!(chats | async)"></ion-spinner>
     	</ion-buttons>
   </ion-navbar>
 
@@ -22,6 +22,6 @@
 		<img *ngIf="!(chat.info | async).picture" src="img/default.jpg">
 		<img *ngIf="(chat.info | async).picture" src="{{(chat.info | async).picture}}">
 	</ion-avatar>
-	<span>{{chat.info | async).email}}</span>
+	<span>{{(chat.info | async).email}}</span>
 </a>
 </ion-content>
